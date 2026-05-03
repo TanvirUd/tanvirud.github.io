@@ -14,92 +14,255 @@
       <!-- Header -->
       <section id="header-section">
         <div id="left-nav">
-          <a class="toggle-theme light" href="">--- Tanvir Uddin</a>
+          <a class="clickable-link light" href="">--- Tanvir Uddin</a>
         </div>
         <div id="right-nav">
           <div class="clickable-links">
-            <a class="clickable-link toggle-language light" href="#"><img src="assets/icons/language_icon_217771.svg" class="light-image" alt="Change language"> EN</a>
-            <a class="clickable-link toggle-theme light" href="#"><img src="assets/icons/sun_night_light_dark_moon_weather_icon_194353.svg" class="light-image" alt="Light and dark mode switcher"></a>
-            <a class="clickable-link toggle-theme light" href="#about-me-section">À propos</a>
-            <a class="clickable-link toggle-theme light" href="#projects-section">Mes projets</a>
-            <a class="clickable-link toggle-theme light" href="#experiences-section">Mes expériences</a>
-            <a class="clickable-link toggle-theme light" href="#contact-section">Contactez-moi</a>
+            <div class="toggle-switch">
+              <label class="switch-label">
+                <input type="checkbox" class="checkbox" id="toggle-theme">
+                <span class="slider"></span>
+              </label>
+            </div>
+            <!-- <a class="clickable-link toggle-language light" href="#"><img src="assets/icons/language_icon_217771.svg" class="light-image" alt="Change language">FR</a> -->
+            <a class="clickable-link light" href="#projects-section">Mes projets</a>
+            <a class="clickable-link light" href="#experiences-section">Mes expériences</a>
+            <a class="clickable-link light" href="#contact-section">Contactez-moi</a>
           </div>
         </div>
       </section>
 
       <!-- Hero banner -->
       <section id="banner-section">
-        <div><p>Hello! Moi c'est Tanvir <span class="surname">Uddin</span></p></div>
-        <h1>Un Développeur Full-stack</h1>
-        <h2>Passionné par tout ce qui touche à la technologie et au développement.</h2>
-        <div class="clickable-links">
-          <a class="clickable-link light" href="https://github.com/TanvirUd" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github_logo_icon_143772.svg" class="light-image" alt="Github icon"></a>
-          <a class="clickable-link light" href="https://www.linkedin.com/in/tanvir-uddin-2000/" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin_icon-icons.com_65439.svg" class="light-image" alt="LikedIn icon"></a>
-          <a class="clickable-link light" href="/files/TanvirUddinCV.pdf" target="_blank" rel="noopener noreferrer"><img src="assets/icons/resume_business_cv_work_job_curriculum_icon_175611.svg" class="light-image" alt="CV icon"></a>
+        <div>
+          <div id="banner-starting-text"><h4>Hello! Moi c'est Tanvir <span class="surname">Uddin</span></h4></div>
+          <h1>Développeur Full-stack</h1>
+          <h3>Passionné par tout ce qui touche à la technologie et au développement.</h3>
+          <div id="banner-links" class="clickable-links">
+            <a class="clickable-link light" href="https://github.com/TanvirUd" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github_logo_icon_143772.svg" class="light-image" alt="Github icon"></a>
+            <a class="clickable-link light" href="https://www.linkedin.com/in/tanvir-uddin-2000/" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin_icon-icons.com_65439.svg" class="light-image" alt="LikedIn icon"></a>
+            <a class="clickable-link light" href="/files/TanvirUddinCV.pdf" target="_blank" rel="noopener noreferrer"><img src="assets/icons/resume_business_cv_work_job_curriculum_icon_175611.svg" class="light-image" alt="CV icon"></a>
+          </div>
         </div>
-        <div id="techstacks">
-          <div class="techstack"><p>PHP</p></div>
-          <div class="techstack"><p>JavaScript</p></div>
+        <div class="void" id="void">
+          <div class="crop">
+            <ul id="card-list" style="--count: 6;">
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/php-logo.svg" alt="PHP Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/html-logo.svg" alt="Html Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/js-logo.svg" alt="JavaScript Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/css-logo.svg" alt="CSS Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/react-logo.svg" alt="React Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/python-logo.svg" alt="Python Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/mysql-logo.svg" alt="MySql Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/laravel-logo.svg" alt="Laravel Logo">
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <img src="/assets/icons/figma-logo.svg" alt="Figma Logo">
+                </div>
+              </li>
+            </ul>
+            <div class="last-circle"></div>
+            <div class="second-circle"></div>
+          </div>
+          <div class="mask"></div>
+          <div class="center-circle"></div>
         </div>
-      </section>
-
-      <!-- About me -->
-      <section id="about-me-section">
-
       </section>
 
       <!-- Projects -->
       <section id="projects-section">
-
+        <div class="section-title">
+          <H2>Projets</H2>
+        </div>
+        <div id="project-cards">
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+          <div class="book">
+            <p>Hello</p>
+            <div class="cover">
+              <p>Hover Me</p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <!-- My experiences -->
+      <!-- Experiences -->
       <section id="experiences-section">
-
+        <div class="section-title">
+          <H2>Experiences</H2>
+        </div>
+        <div id="experiences">
+          <div class="exp-card">
+            <div class="exp-date"><p>Month - YYYY à Month - YYYY</p></div>
+            <div class="exp-title"><H3>Job Title</H3></div>
+            <div class="exp-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus illum quis veniam excepturi facere sit ex minus, ea blanditiis! Iusto porro quisquam optio animi odit! Atque inventore dolorum culpa distinctio pariatur illum odit libero, officia quisquam earum, deserunt mollitia? Quas reiciendis consequatur cumque quos, necessitatibus non molestiae earum facilis?</p></div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-date"><p>Month - YYYY à Month - YYYY</p></div>
+            <div class="exp-title"><H3>Job Title</H3></div>
+            <div class="exp-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus illum quis veniam excepturi facere sit ex minus, ea blanditiis! Iusto porro quisquam optio animi odit! Atque inventore dolorum culpa distinctio pariatur illum odit libero, officia quisquam earum, deserunt mollitia? Quas reiciendis consequatur cumque quos, necessitatibus non molestiae earum facilis?</p></div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-date"><p>Month - YYYY à Month - YYYY</p></div>
+            <div class="exp-title"><H3>Job Title</H3></div>
+            <div class="exp-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus illum quis veniam excepturi facere sit ex minus, ea blanditiis! Iusto porro quisquam optio animi odit! Atque inventore dolorum culpa distinctio pariatur illum odit libero, officia quisquam earum, deserunt mollitia? Quas reiciendis consequatur cumque quos, necessitatibus non molestiae earum facilis?</p></div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-date"><p>Month - YYYY à Month - YYYY</p></div>
+            <div class="exp-title"><H3>Job Title</H3></div>
+            <div class="exp-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus illum quis veniam excepturi facere sit ex minus, ea blanditiis! Iusto porro quisquam optio animi odit! Atque inventore dolorum culpa distinctio pariatur illum odit libero, officia quisquam earum, deserunt mollitia? Quas reiciendis consequatur cumque quos, necessitatibus non molestiae earum facilis?</p></div>
+          </div>
+        </div>
       </section>
 
       <!-- Contact me -->
       <section id="contact-section">
-
-      </section>
-
-      <!--  -->
-      <section id="footer-section">
-
+        <div class="contact-button">
+          <a
+            href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :"
+            class="contact-btn"
+            >
+            <h2>Me contacter</h2>
+            <span class="arrow-wrap light">
+              <img class="light-image" src="assets/icons/send-logo.svg" alt="Send logo" />
+            </span>
+          </a>
+        </div>
       </section>
     </div>
+
+    <!-- Footer -->
+    <footer id="footer-section">
+      <div id="footer-content">
+        <div class="footer-brand">
+          <h2 class="footer-name">Tanvir Uddin</h2>
+          <p class="footer-tagline">Développeur Full Stack<br>basé à Bischheim, France</p>
+        </div>
+        <div class="footer-col">
+          <h4>Travaux</h4>
+          <div class="footer-links">
+            <a href="#">Projets</a>
+            <a href="#">Études de cas</a>
+            <a href="#">Open source</a>
+            <a href="#">CV</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="#" class="social-link">GitHub</a>
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">E-mail</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <span class="footer-copy">© 2026 Tanvir Uddin. Tous droits réservés.</span>
+        <div class="footer-status">
+          <span class="footer-copy">Disponible pour de nouveaux projets</span>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script>
     let isDarkMode = false;
 
-    document.querySelector('.toggle-theme').addEventListener('click', function(e) {
-      e.preventDefault();
-      isDarkMode = !isDarkMode;
-
+    document.querySelector('#toggle-theme').addEventListener('change', function() {
       const bgDiv = document.getElementById('background-image');
-      if (bgDiv) {
-        bgDiv.classList.toggle('background-light', !isDarkMode);
-        bgDiv.classList.toggle('background-dark', isDarkMode);
+      const components = document.querySelectorAll('.light, .dark');
+      const images = document.querySelectorAll('.light-image, .dark-image');
+
+      if (this.checked) {
+        bgDiv.classList.replace('background-light', 'background-dark')
+        components.forEach(el => {
+          el.classList.replace('light', 'dark');
+        })
+        images.forEach(el => {
+          el.classList.replace('light-image', 'dark-image');
+        })
+      } else {
+        bgDiv.classList.replace('background-dark', 'background-light')
+        components.forEach(el => {
+          el.classList.replace('dark', 'light');
+        })
+        images.forEach(el => {
+          el.classList.replace('dark-image', 'light-image');
+        })
       }
-
-      const sepDiv = document.querySelector('#vertical-separator');
-      if (sepDiv) {
-        sepDiv.classList.toggle('light-separator', !isDarkMode);
-        sepDiv.classList.toggle('dark-separator', isDarkMode);
-      }
-
-      document.querySelectorAll('.light, .dark').forEach(el => {
-        el.classList.toggle('light', !isDarkMode);
-        el.classList.toggle('dark', isDarkMode);
-      });
-
-      document.querySelectorAll('.light-image, .dark-image').forEach(img => {
-        img.classList.toggle('light-image', !isDarkMode);
-        img.classList.toggle('dark-image', isDarkMode);
-      });
-    });
+    })
 
     document.querySelector('.toggle-language').addEventListener('click', function(e) {
       e.preventDefault();
@@ -110,7 +273,7 @@
       frElements.forEach(el => el.style.display = isCurrentlyFr ? 'none' : '');
       enElements.forEach(el => el.style.display = isCurrentlyFr ? '' : 'none');
 
-      this.lastChild.textContent = isCurrentlyFr ? ' FR' : ' EN';
+      this.lastChild.textContent = isCurrentlyFr ? 'EN' : 'FR';
     });
   </script>
 </body>
