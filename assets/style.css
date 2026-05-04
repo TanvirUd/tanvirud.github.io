@@ -292,6 +292,7 @@ p {
   letter-spacing: 0.8px;
   border-radius: 10px;
   transition: all .3s;
+  border: 1px solid var(--lighter-dark);
 }
 
 .banner-link-image img {
