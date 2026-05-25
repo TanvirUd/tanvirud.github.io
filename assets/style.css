@@ -6,21 +6,11 @@
   --dark: #28292c;
   --darker-dark: #1b1b1b;
   --lighter-dark: #68686d;
-  
   --content-width: 1400px;
-
 	--rotate-speed: 40;
 	--count: 8; /* Default count, the DOM element should override this */
 	--easeInOutSine: cubic-bezier(0.37, 0, 0.63, 1);
 	--easing: cubic-bezier(0.000, 0.37, 1.000, 0.63);
-}
-
-.background-light {
-  background-image: url(images/tareq-ajalyakin-cK2ogUiya1o-unsplash.jpg);
-}
-
-.background-dark {
-  background-image: url(images/techtheist-cpu-8892400.png);
 }
 
 /* --- General Blocks --- */
@@ -31,6 +21,8 @@ section {
 /* --- Specific Blocks --- */
 
 #background-image {
+  background-image: url(images/tareq-ajalyakin-cK2ogUiya1o-unsplash.jpg);
+  background-color: var(--darker-dark);
   position: fixed;
   height: 100%;
   width: 100%;
@@ -49,11 +41,12 @@ section {
 }
 
 #content {
-  max-width: var(--content-width);
+  width: var(--content-width);
 }
 
 #header-section {
   height: 70px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -331,7 +324,7 @@ p {
 	aspect-ratio: 1 / 1;
 }
 
-ul {
+.card-list {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -341,7 +334,7 @@ ul {
 	z-index: 1;
 }
 
-li {
+.carousel-elements {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-10%);

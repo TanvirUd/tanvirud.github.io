@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/reset.css">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="../../assets/subpage.css">
+  <title>Chatterbox</title>
+</head>
+<body>
+  <div id="background-image"></div>
+  <div id="container" class="light">
+    <div id="content">
+      <!-- Header -->
+      <section id="header-section">
+        <div id="left-nav">
+          <a class="clickable-link light" href="../..">--- Tanvir Uddin</a>
+        </div>
+        <div id="right-nav">
+          <div class="clickable-links">
+            <!-- <div class="toggle-switch">
+              <label class="switch-label">
+                <input type="checkbox" class="checkbox" id="toggle-theme">
+                <span class="slider"></span>
+              </label>
+            </div> -->
+            <!-- <a class="clickable-link toggle-language light" href="#"><img src="assets/icons/language_icon_217771.svg" class="light-image" alt="Change language">FR</a> -->
+            <a class="clickable-link light" href="../..">Page pricipal</a>
+            <a class="clickable-link light" href="#contact-section">Contactez-moi</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-intro">
+        <div>
+          <h2>Boîte de messagerie en temps réel</h2>
+          <div id="banner-links" class="clickable-links">
+            <a href="https://laravel.com/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/laravel-logo.svg" class="light-image" alt="Laravel logo">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <a href="https://react.dev/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/react-logo.svg" class="light-image" alt="React icon">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <a href="https://dev.mysql.com/doc/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/mysql-logo.svg" class="light-image" alt="CV icon">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <div class="demo-wrap">
+              <a href="https://github.com/TanvirUd/ChatterBocx" class="banner-link-rect">
+                <span class="banner-link-image-rect">Visiter</span>
+                <span class="button-bg-rect"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="../../assets/images/chatterbox/ChatterBocx.png" alt="">
+        </div>
+      </section>
+
+      <section id="project-overview">
+        <div class="section-title">
+          <H2>Aperçu du projet</H2>
+        </div>
+        <div class="section-content">
+          <div class="section-text">
+            <div>
+              <h3>Le défi</h3>
+              <p>Je voulais créer quelque chose de concret pour apprendre par moi-même tout en m'amusant. L’idée : une application de messagerie instantanée, simple mais complète, où l’on peut se connecter et discuter en temps réel avec quelqu’un d’autre. Le vrai défi ? Toucher à tous les aspects du développement — base de données, interface, temps réel, tests, documentation — sans rien zapper.</p>
+            </div>
+            <div>
+              <h3>Ma solution</h3>
+              <p>Je me suis lancé avec Laravel (back-end), React (front-end) et MySQL pour la gestion des données. Pour le temps réel, j'ai intégré Reverb et les WebSockets. Au fil du code, j'ai ajouté :</p>
+              <ul>
+                <li>Une page d'inscription / connexion avec validation</li>
+                <li>Un espace profil modifiable</li>
+                <li>Un système d'envoi de messages avec mise à jour instantanée</li>
+                <li>Une recherche dynamique pour choisir son destinataire</li>
+                <li>Des tests unitaires pour éviter les régressions</li>
+                <li>Une documentation complète et un guide d'installation</li>
+              </ul> 
+              <p>J'ai structuré mon travail étape par étape : base de données, maquettes, mise en place des canaux de communication, puis développement de la messagerie. Chaque brique a été posée pour que le tout tienne debout.</p>
+            </div>
+            <div>
+              <h3>Le résultat</h3>
+              <p>Au bout du compte, j'ai obtenu une application de messagerie fonctionnelle, fluide et réutilisable. Mais le plus important, c'est le chemin parcouru : j'ai pris un réel plaisir à coder, j'ai appris à faire dialoguer Laravel et React, à dompter les WebSockets, et à ne pas négliger les tests. Ce projet est devenu une base solide pour d'autres idées, et surtout, une belle preuve que j’ai progressé en m’amusant.</p>
+            </div>
+          </div>
+          <div class="section-images">
+            <img src="../../assets/images/chatterbox/ChatterBocs-page.png" alt="">
+            <img src="../../assets/images/chatterbox/chatterbocx-dashboard-page.png" alt="">
+            <img src="../../assets/images/chatterbox/chatterbocx-register-page.png" alt="">
+            <img src="../../assets/images/chatterbox/chatterbocx-no-users-page.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact me -->
+      <section id="contact-section">
+        <div class="contact-button">
+          <a
+            href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :"
+            class="contact-btn"
+            >
+            <h2>Me contacter</h2>
+            <span class="arrow-wrap light">
+              <img class="light-image" src="../../assets/icons/send-logo.svg" alt="Send logo" />
+            </span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer-section">
+      <div id="footer-content">
+        <div class="footer-brand">
+          <h2 class="footer-name">Tanvir Uddin</h2>
+          <p class="footer-tagline">Développeur Full Stack<br>basé à Bischheim, France</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sur moi</h4>
+          <div class="footer-links">
+            <a href="../..">Page principal</a>
+            <a href="#project-overview">Aperçu du projet</a>
+            <a href="../../files/Tanvir_Uddin_CV.pdf">CV</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="https://github.com/TanvirUd" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/tanvir-uddin-2000/" class="social-link">LinkedIn</a>
+            <a href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :" class="social-link">E-mail</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <span class="footer-copy">© 2026 Tanvir Uddin. Tous droits réservés.</span>
+        <div class="footer-status">
+          <span class="footer-copy">Disponible pour de nouveaux projets</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
