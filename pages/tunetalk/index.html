@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/reset.css">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="../../assets/subpage.css">
+  <title>Tunetalk</title>
+</head>
+<body>
+  <div id="background-image"></div>
+  <div id="container" class="light">
+    <div id="content">
+      <!-- Header -->
+      <section id="header-section">
+        <div id="left-nav">
+          <a class="clickable-link light" href="../..">--- Tanvir Uddin</a>
+        </div>
+        <div id="right-nav">
+          <div class="clickable-links">
+            <!-- <div class="toggle-switch">
+              <label class="switch-label">
+                <input type="checkbox" class="checkbox" id="toggle-theme">
+                <span class="slider"></span>
+              </label>
+            </div> -->
+            <!-- <a class="clickable-link toggle-language light" href="#"><img src="assets/icons/language_icon_217771.svg" class="light-image" alt="Change language">FR</a> -->
+            <a class="clickable-link light" href="../..">Page pricipal</a>
+            <a class="clickable-link light" href="#contact-section">Contactez-moi</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-intro">
+        <div>
+          <h2>MDB de la musique (avec Spotify dedans)</h2>
+          <div id="banner-links" class="clickable-links">
+            <a href="https://www.php.net/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/php-logo.svg" class="light-image" alt="PHP logo">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/javascript.png" class="light-image" alt="JavaScript icon">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <a href="https://dev.mysql.com/doc/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/mysql-logo.svg" class="light-image" alt="CV icon">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <div class="demo-wrap">
+              <a href="https://github.com/TanvirUd/tunetalk" class="banner-link-rect">
+                <span class="banner-link-image-rect">Visiter</span>
+                <span class="button-bg-rect"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="../../assets/images/tunetalk/logo-tunetalk-darkmode.png" alt="">
+        </div>
+      </section>
+
+      <section id="project-overview">
+        <div class="section-title">
+          <H2>Aperçu du projet</H2>
+        </div>
+        <div class="section-content">
+          <div class="section-text">
+            <div>
+              <h3>Le défi</h3>
+              <p>Je voulais créer un site de critiques d’albums musicaux, un peu comme IMDB mais pour la musique. L’idée : permettre aux utilisateurs de noter et commenter leurs albums préférés, de consulter ceux des autres, et de découvrir de nouvelles sorties. Le vrai défi ? C’était mon premier projet en équipe. Il fallait non seulement coder, mais aussi communiquer, répartir les tâches, et faire dialoguer nos différentes parties. Ajoutez à ça l’intégration d’une vraie API (Spotify) et une base de données relationnelle à concevoir de zéro… Le terrain était parfait pour apprendre en s’amusant.</p>
+            </div>
+            <div>
+              <h3>Ma solution</h3>
+              <p>Je me suis concentré sur ce que j’aime le plus : le back-end et la gestion des données. Avec PHP 8.2, MySQL et un peu de JavaScript pour l’interactivité, j’ai construit :</p>
+              <ul>
+                <li>Une page d’inscription / connexion complète</li>
+                <li>Un espace profil modifiable</li>
+                <li>La récupération des albums depuis l’API Spotify et leur affichage clair</li>
+                <li>Une page de détail pour chaque album, avec un formulaire de critique et l’affichage des avis existants</li>
+                <li>Un moteur de recherche avec page de résultats</li>
+                <li>Un tableau de bord présentant les derniers albums ajoutés</li>
+              </ul> 
+              <p>Côté outils, j’ai utilisé VSCode, XAMPP (pour Apache/MySQL local), Insomnia pour tester les API, Whimsical pour les maquettes, et Looping pour modéliser la base de données avec Merise. Même si le projet était en équipe, j’ai pris soin de bien documenter ce que je faisais pour que tout reste propre et réutilisable.</p>
+            </div>
+            <div>
+              <h3>Le résultat</h3>
+              <p>Le projet n’est pas totalement terminé (les commentaires sur les critiques n’ont pas eu le temps d’être implémentés), mais ce n’est pas l’essentiel. Ce qui compte, c’est ce que j’en ai tiré :</p>
+              <ul>
+                <li>Une première expérience concrète du travail en équipe (avec ses joies et ses galères — on a regretté Teams, par exemple)</li>
+                <li>La fierté d’avoir intégré une API externe comme Spotify sans framework</li>
+                <li>Une meilleure compréhension de la modélisation de base de données, des tests d’API, et de la structuration d’un projet de A à Z</li>
+                <li>Et surtout, beaucoup de plaisir à coder, à bidouiller, et à voir le site prendre vie</li>
+              </ul>
+              <p>Même inachevé, TuneTalk reste pour moi une étape clé : il m’a appris à collaborer, à gérer mes priorités, et à ne pas avoir peur de l’imperfection quand l’objectif est d’apprendre. J’ai hâte de remettre ça sur un prochain projet !</p>
+            </div>
+          </div>
+          <div class="section-images">
+            <img src="../../assets/images/tunetalk/mockup.png" alt="">
+            <img src="../../assets/images/tunetalk/spotify-api.png" alt="">
+            <img src="../../assets/images/tunetalk/tunetalk.png" alt="">
+            <img src="../../assets/images/tunetalk/album-page.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact me -->
+      <section id="contact-section">
+        <div class="contact-button">
+          <a
+            href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :"
+            class="contact-btn"
+            >
+            <h2>Me contacter</h2>
+            <span class="arrow-wrap light">
+              <img class="light-image" src="../../assets/icons/send-logo.svg" alt="Send logo" />
+            </span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer-section">
+      <div id="footer-content">
+        <div class="footer-brand">
+          <h2 class="footer-name">Tanvir Uddin</h2>
+          <p class="footer-tagline">Développeur Full Stack<br>basé à Bischheim, France</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sur moi</h4>
+          <div class="footer-links">
+            <a href="../..">Page principal</a>
+            <a href="#project-overview">Aperçu du projet</a>
+            <a href="../../files/Tanvir_Uddin_CV.pdf">CV</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="https://github.com/TanvirUd" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/tanvir-uddin-2000/" class="social-link">LinkedIn</a>
+            <a href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :" class="social-link">E-mail</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <span class="footer-copy">© 2026 Tanvir Uddin. Tous droits réservés.</span>
+        <div class="footer-status">
+          <span class="footer-copy">Disponible pour de nouveaux projets</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

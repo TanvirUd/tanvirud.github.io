@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../assets/reset.css">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="../../assets/subpage.css">
+  <title>Djaboo</title>
+</head>
+<body>
+  <div id="background-image"></div>
+  <div id="container" class="light">
+    <div id="content">
+      <!-- Header -->
+      <section id="header-section">
+        <div id="left-nav">
+          <a class="clickable-link light" href="../..">--- Tanvir Uddin</a>
+        </div>
+        <div id="right-nav">
+          <div class="clickable-links">
+            <!-- <div class="toggle-switch">
+              <label class="switch-label">
+                <input type="checkbox" class="checkbox" id="toggle-theme">
+                <span class="slider"></span>
+              </label>
+            </div> -->
+            <!-- <a class="clickable-link toggle-language light" href="#"><img src="assets/icons/language_icon_217771.svg" class="light-image" alt="Change language">FR</a> -->
+            <a class="clickable-link light" href="../..">Page pricipal</a>
+            <a class="clickable-link light" href="#contact-section">Contactez-moi</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-intro">
+        <div>
+          <h2>Interface CRM épurée (fini le bazar WordPress)</h2>
+          <div id="banner-links" class="clickable-links">
+            <a href="https://react.dev/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/react-logo.svg" class="light-image" alt="React icon">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <a href="https://www.python.org/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/python-logo.svg" class="light-image" alt="Python logo">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <a href="https://www.typescriptlang.org/" class="banner-link">
+              <span class="banner-link-image">
+                <img src="../../assets/icons/typescript-logo.svg" class="light-image" alt="Typescript icon">
+              </span>
+              <span class="button-bg"></span>
+            </a>
+            <div class="demo-wrap">
+              <a href="https://myracingcoach.ai/" class="banner-link-rect">
+                <span class="banner-link-image-rect">Visiter</span>
+                <span class="button-bg-rect"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="../../assets/images/myracingcoach/myracingcoach-banner.png" alt="">
+        </div>
+      </section>
+
+      <section id="project-overview">
+        <div class="section-title">
+          <H2>Aperçu du projet</H2>
+        </div>
+        <div class="section-content">
+          <div class="section-text">
+            <div>
+              <h3>Le défi</h3>
+              <p>L'application existante ne fournissait que des métriques de temps. Aucune donnée de performance ou de freinage n'était disponible. Pourtant, les pilotes avaient besoin de visualiser leurs déclenchements de freinage et leurs pics G. Le défi était donc de partir de zéro : interpréter les données brutes envoyées par les boîtiers AiM, les transformer en données de freinage exploitables (via une API), puis créer les graphiques correspondants dans les pages d'analyse et de comparaison.</p>
+            </div>
+            <div>
+              <h3>Ma solution</h3>
+              <p>J'ai d'abord analysé les flux bruts d'AiM pour en extraire des informations de freinage (distance de déclenchement, pic G réel, pic G cible, rayon minimal, etc.). J'ai ensuite contribué à la création de l'API qui expose ces données structurées. Côté front-end, j'ai conçu un composant de graphique réutilisable pour :</p>
+              <ul>
+                <li>Graphique en barres horizontal : distance de freinage avant le virage (utilisateur vs référence optimale).</li>
+                <li>Graphique en ligne : pic de freinage en G-force (réel vs cible), virage par virage.</li>
+                <li>Tableau récapitulatif par secteur.</li>
+              </ul> 
+              <p>J'ai intégré le tout dans les cartes déroulantes par secteur, avec gestion des valeurs nulles et respect du design existant.</p>
+            </div>
+            <div>
+              <h3>Le résultat</h3>
+              <p>Nous avons livré de bout en bout une fonctionnalité complète de freinage : de l'interprétation des données brutes AiM à l'API, puis aux graphiques dans l'application. Les pilotes peuvent désormais analyser leurs performances de freinage secteur par secteur, comparer leurs déclenchements et leurs pics G à des références optimales, et ce aussi bien sur une seule session qu'en comparant deux fichiers. Une fonctionnalité qui n'existait pas – et qui est désormais opérationnelle.</p>
+            </div>
+          </div>
+          <div class="section-images">
+            <img src="../../assets/images/myracingcoach/app image 12.png" alt="My Racing Coach website page">
+            <img src="../../assets/images/myracingcoach/app image 3.jpg" alt="My Racing Coach app main page">
+            <img src="../../assets/images/myracingcoach/app image 4.jpg" alt="My Racing Coach app graphs in action">
+            <img src="../../assets/images/myracingcoach/app image 6.jpg" alt="My Racing Coach app race grid">
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact me -->
+      <section id="contact-section">
+        <div class="contact-button">
+          <a
+            href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :"
+            class="contact-btn"
+            >
+            <h2>Me contacter</h2>
+            <span class="arrow-wrap light">
+              <img class="light-image" src="../../assets/icons/send-logo.svg" alt="Send logo" />
+            </span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer-section">
+      <div id="footer-content">
+        <div class="footer-brand">
+          <h2 class="footer-name">Tanvir Uddin</h2>
+          <p class="footer-tagline">Développeur Full Stack<br>basé à Bischheim, France</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sur moi</h4>
+          <div class="footer-links">
+            <a href="../..">Page principal</a>
+            <a href="#project-overview">Aperçu du projet</a>
+            <a href="../../files/Tanvir_Uddin_CV.pdf">CV</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="https://github.com/TanvirUd" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/tanvir-uddin-2000/" class="social-link">LinkedIn</a>
+            <a href="mailto:tanvir.uddin20@gmail.com?subject=Proposition d'emploi :" class="social-link">E-mail</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <span class="footer-copy">© 2026 Tanvir Uddin. Tous droits réservés.</span>
+        <div class="footer-status">
+          <span class="footer-copy">Disponible pour de nouveaux projets</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
