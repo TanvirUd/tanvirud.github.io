@@ -22,7 +22,8 @@
 .section-text {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 10rem;
+  margin-top: 5rem;
 }
 
 h3 {
@@ -37,7 +38,9 @@ h3 {
 
 .section-images > img {
   height: 400px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1.2rem;
 }
 
 /* --- Discover button --- */
